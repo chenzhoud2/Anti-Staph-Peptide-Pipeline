@@ -2,7 +2,7 @@
 This repository contains the complete source code and instructions for reproducing the results in our paper:"A lightweight, homology-audited machine learning pipeline for Pareto screening of anti-staphylococcal peptides with balanced efficacy and safety". 
 
 # 2 Repository Structure
-*   `main.ipynb`: The complete pipeline for data processing, feature extraction, model training, evaluations, and generation of all figures and tables.
+*   `pipeline.ipynb`: The complete pipeline for data processing, feature extraction, model training, evaluations, and generation of all figures and tables.
 *   `requirements.txt`: Python dependencies required to run the code.
 *   `data/`: Folder where you need to place the downloaded dataset (not included in GitHub).
 *   `results/`: Folder that will be automatically created to save all generated figures (`.png`) and tables (`.csv`).
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 (Note for users in China: If the download is slow, you can add the Tsinghua mirror by appending -i https://pypi.tuna.tsinghua.edu.cn/simple to the command above.)
 
 ## Step 3: Launch Jupyter Lab
-Navigate to the project directory (where main.ipynb is located) and launch Jupyter:
+Navigate to the project directory (where pipeline.ipynb is located) and launch Jupyter:
 cd /path/to/your/AMP-Project
 jupyter lab
 
@@ -37,7 +37,7 @@ Place the 4 provided .csv files (mic_train_val.csv, mic_external_test.csv, hemo_
 
 
 # 5 How to Reproduce the Results
-Open the main.ipynb in Jupyter Notebook or JupyterLab.
+Open the pipeline.ipynb in Jupyter Notebook or JupyterLab.
 Ensure your kernel is set to the environment with the installed requirements (e.g., projectamp).
 Click "Kernel" -> "Restart & Run All" (or "Run All").
 
