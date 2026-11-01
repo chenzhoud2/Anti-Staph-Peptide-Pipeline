@@ -1,0 +1,18 @@
+# Data and Results (Do not upload)
+data/
+results/
+*.csv
+*.npy
+*.pkl
+*.png
+*.docx
+
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System and IDE
+.DS_Store
+.idea/
+.vscode/

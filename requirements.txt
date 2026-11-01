@@ -1,0 +1,11 @@
+numpy==1.24.4
+scikit-learn==1.2.2
+pandas
+matplotlib
+seaborn
+networkx
+scipy
+joblib
+biopython
+python-docx
+ipykernel
